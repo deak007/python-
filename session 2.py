@@ -1,0 +1,36 @@
+name=("dea")
+print(name)
+age=(18)
+print(age)
+color=("pink")
+print(color)
+print(name,age,color)
+
+v1=(3)
+v2=(5)
+v3=(8)
+print(v1+v2+v3)
+
+school=("cit")
+print(school)
+grade=(12)
+print(grade)
+subject=("math")
+print(subject)
+print(school,grade,subject)
+
+c1=(2026)
+c2=(1900)
+print(c1-c2)
+
+c3=(2026-1900)
+print(c3)
+
+box=(5*100)
+print(box)
+can=(23*10)
+print(can)
+print(can+box)
+
+na = input("emri: ")
+print("hello,"+ na)
