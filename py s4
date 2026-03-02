@@ -1,0 +1,51 @@
+for i in range(5):
+    print("This is iteration",i)
+
+for i in range(2,8,3):
+    print("hello",i)
+
+for i in range(10,0,-1):
+    print("time remaining",i)
+
+#Loop Control
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+number=10
+while number > -1:
+    print(number)
+    number=number-1
+
+for i in range(11):
+    print(i)
+
+name=("Dea")
+count=5
+while count > 0:
+    print(name)
+    count=count-1
+
+number1=20
+while number1 > 0:
+    print(number1)
+    number1=number1 -2
+
+countdown=10
+while countdown > 0:
+    print("Time remaining",countdown)
+    countdown=countdown-1
+
+n=int(input("Enter your number:"))
+total = 0
+i = 1
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)
