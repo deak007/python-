@@ -1,0 +1,18 @@
+def greeting():
+    print("Hello there")
+greeting()
+greeting()
+
+def greet_a_person(name):
+    print("hello", name)
+greet_a_person("dea")
+greet_a_person("eni")
+
+def maximum(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+a = 5
+b = 2
+c = 9
