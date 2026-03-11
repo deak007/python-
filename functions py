@@ -1,0 +1,64 @@
+def greeting():
+    print("Hello there")
+greeting()
+greeting()
+
+def greet_a_person(name):
+    print("hello", name)
+greet_a_person("dea")
+greet_a_person("eni")
+
+def maximum(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+a = 5
+b = 2
+c = 9
+
+def sayhello():
+   print("Hello")
+sayhello()
+sayhello()
+sayhello()
+def sayhello():
+   print("Welcome to the course")
+sayhello()
+sayhello()
+sayhello()
+
+def greet(name):
+   print("Hello" , name)
+greet("Dea")
+
+def intro(name , city):
+   print("Hello, my name is" , name , "I live in" , city)
+intro("Dea" , "Elbasan")
+
+def sum(a,b):
+   result = a + b
+   return result
+def product(a,b):
+   result = a * b
+   return result
+a = 5
+b = 3
+print(sum(a,b))
+print(product(a,b))
+
+def sub(a,b):
+    result = a * b
+    return result
+def div(a,b):
+    result = a / b
+    return result
+a = 8
+b = 2
+print(sub(a,b))
+print(div(a,b))
+
+def cal():
+    return (10+4)/3
+result = cal()
+print(result)
